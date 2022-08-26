@@ -13,7 +13,7 @@ This is a directory in which I'm including some explanatory documents that I wis
 
 ## Code
 
-This directory includes all the important code I've written over the summer, as well as files and directories that are necessary for the code to run. All code is well-documented (in my opinion), so it should be easy enough to read through and figure out what everything does. Some files are too big to be stored on Github, in which case I store them on Google Drive and stick a text file with a link to the drive in its place. This directory includes:
+This directory includes all the important code I've written over the summer, as well as files and directories that are necessary for the code to run. All code is well-documented (in my opinion), so it should be easy enough to read through and figure out what everything does. Some files are too big to be stored on Github, in which case I store them on Google Drive or on Cedar and stick a text file with a link to the drive or instructions on accessing it in its place. This directory includes:
 
 - **Final_Notebook.ipynb**: A Jupyter Notebook that explains and implements the entire process of parameter estimation for the verification binaries. It downloads the LISA data, finds glitches, windows glitches, runs an f-statistic gridsearch, runs MCMC samplers, then analyzes results. It is incomplete at the moment because I haven't had time to run all the MCMC samplers needed to estimate parameters for all detected binaries, but I'm hoping to submit those jobs to Cedar and get back some files I can just stick in a directory to finish off the project. Also, some modules imported at the start likely aren't needed, and I never did finish off my full TODO list. It's pretty close to done though. 
 
