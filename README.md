@@ -1,7 +1,7 @@
 # Kye's Final Folder
 *Kye Emond, August 2022*
 
-This folder contains the initial results of my work. It has two subdirectories and one other file, which I will explain below:
+This repository contains the initial results of my work. It has two subdirectories and one other file, which I will explain below:
 
 ## LearningDocuments
 
