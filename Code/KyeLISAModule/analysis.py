@@ -8,6 +8,7 @@ KyeLISA Analysis Module
 Functions to help analyze different tdi variables quickly
 
 Methods:
+    uncert: Returns a formatted float and uncertainty
     rolling_quantile: Calculates a quantile at each point using nearby points
     roll_local: Rolls an array towards a neighbour
     find_extrema: Finds extrema in an array
@@ -39,6 +40,24 @@ from scipy.integrate import quad
 from numpy.fft import ifft
 
 # Functions
+def uncert(value:float, uncertainty:float) -> str:
+    """Return a formatted string of the value with uncertainty
+
+    Args:
+        value (float): Value to be formatted
+        uncertainty (float): Uncertainty to use formatting
+    
+    Returns:
+        str: Formatted value-uncertainty pair
+    """
+    
+    # Get the index of the first uncertainty digit
+    round_index = -int(f"{uncertainty:e}".partition("e")[-1]) + 1
+    
+    # Return the formatted string
+    return f"{round(value, round_index)} ± {round(uncertainty, round_index)}"
+
+
 def rolling_quantile(array:np.ndarray, quantile:float, extents:int, axis:int=None) -> np.ndarray:
     """Compute the quantile of a region around each point of the data.
 
