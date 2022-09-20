@@ -29,7 +29,7 @@ This directory includes all the important code I've written over the summer, as 
 
 - **FinalFunctions.py**: A python file that has all the probability functions (fstat, log likelihood, etc...) stored to be easily imported. 
 
-- **KyeLISAModule** A python module containing several submodules, all used to make LISA data analysis faster and easier. 
+- **KyeLISAModule**: A python module containing several submodules, all used to make LISA data analysis faster and easier. 
 
 ### requirements.txt
 
