@@ -11,7 +11,7 @@ This is a directory in which I'm including some explanatory documents that I wis
 
 - **CedarUse.pdf**: A file that quickly summarizes how to access and use Cedar via your terminal on a Mac or Linux computer. 
 
-- More to come
+- More to come (Never mind. This was a lie)
 
 ### Code
 
