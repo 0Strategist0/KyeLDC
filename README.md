@@ -39,7 +39,7 @@ A pip freeze of the environment I was using to develop my code. It probably has 
 
 I ended the summer before I got to do all the research I wanted, sadly, so here is a list of extra stuff I would have done with more time:
 
-- Investigate the effects of changing the important of different glitch cutoffs (explained more in the notebook)
+- Investigate the effects of changing the importance of different glitch cutoffs (explained more in the notebook)
 
 - Optimize and improve my (and other people's) code
   - F-Statistic could be made faster in a language like C++ or Rust, I imagine
